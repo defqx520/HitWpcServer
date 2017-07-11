@@ -47,7 +47,7 @@ public class Main {
 	private void initialize() {
 		frame = new JFrame();
 		frame.setTitle("指挥系统");
-		frame.setBounds(10, 10, 600, 440);
+		frame.setBounds(10, 10, 900, 750);
 		frame.setResizable(false);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
@@ -72,7 +72,7 @@ public class Main {
 		//新模块在这里添加
 		
 		
-		ImageIcon background = new ImageIcon("back_1.jpg");
+		ImageIcon background = new ImageIcon("back.jpg");
 		JLabel label = new JLabel(background);  
         label.setBounds(0, 0, frame.getWidth(), frame.getHeight());  
         JPanel imagePanel = (JPanel) frame.getContentPane();  
