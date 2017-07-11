@@ -1,2 +1,1 @@
-# HitWpcServer
-Server
+# 添加新模块时在Main.java中加上新按钮的代码，再建一个package存放自己那个模块的代码
